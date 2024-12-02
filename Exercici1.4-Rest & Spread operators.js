@@ -14,10 +14,12 @@ console.log(array5);
 //Ejercicio 2
 
 function suma(...numbers){
-    return numbers.reduce((acc, num) => acc+ num, 0);
-}
+   let suma = 0;
+   for(let num of numbers) suma += num;
+    return console.log(suma);
+   }
 
-console.log(suma(1, 2, 3, 4));
+suma(1, 2, 3, 4, 5 ,6 ,7 ,8 ,9);
 
 
 //Ejercicio 3
@@ -44,10 +46,10 @@ console.log(rest);
 //Ejercicio 5
 
 function spreadEnFuncion(a, b, c){
-    console.log(a, b, c);
-};
+    console.log(a, b, c );
+}
 let array8 =[2, 3, 45];
-console.log(spreadEnFuncion([...array8]));
+spreadEnFuncion(...array8);
 
 //Ejercicio 6
 

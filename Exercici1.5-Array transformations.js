@@ -39,21 +39,21 @@ console.log(arrayReduce);
 
 const arr1 = [1, 3, 7, 10, 15, 17, 11, 5, 8, 12, 9];
 
-function metodosArray(arr1){
+function calcularArray(arr1){
     const suma = 0;
     const result1 = arr1.filter( num => num >= 10).map(num => num *2).reduce((acc, num) => acc + num, suma,);
     return  console.log(result1);
 };
 
-metodosArray(arr1);
+calcularArray(arr1);
 
 //Ejercicio 6
 
 const arr2 = [11, 12, 9, 14];
 
-const isBig = (num) => num >= 10;
-
-console.log(arr2.every(isBig));
-console.log(arr2.some(isBig));
+const isBigEvery = arr2.every((num) => num >= 10);
+console.log(isBigEvery);
+const isBigSome = arr2.some((num) => num >= 10);
+console.log(isBigSome);
 
 };

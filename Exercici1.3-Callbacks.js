@@ -48,7 +48,9 @@ function myDisplayer(result){
 };
 
 function processarElements(array2, callback){
-    array2.forEach(() => {callback(array2)})
+    for(let i = 0; i < array2.length; i++){
+        callback(array2[i]);
+    }
 };
 
 const array2 = [2, 3, 4, 5];

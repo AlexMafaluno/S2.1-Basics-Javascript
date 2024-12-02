@@ -26,12 +26,12 @@ comparador(4, 4);
 
 function ternarios(num){
     (num > 0) 
-    ? console.log("Es positivo") 
+    ? console.log(`${num} Es positivo`) 
         : (num < 0)
-            ? console.log("Es negativo")
+            ? console.log(`${num} Es negativo`)
              : (num == 0)
-                ? console.log( "es cero")
-                : console.log( " No es un numero");
+                ? console.log( `${num} es cero`)
+                : console.log(`${num} No es un numero`);
 };
 ternarios(10);
 ternarios(0);
@@ -39,25 +39,25 @@ ternarios(-4);
 
 function trobarMaxim(a, b, c){
 (a > b && a > c)
-? console.log("a es valor maxim")
+? console.log(`${a} es valor maxim`)
     :(b > a && b > c)
-        ? console.log( "b es valor maxim")
-        : console.log("c es valor maxim");
+        ? console.log(`${b} es valor maxim`)
+        : console.log(`${c} es valor maxim`);
 };
 trobarMaxim(7, 9, 8);
 
 //Ejercicio 4
 
-function parOlmar(array){
+function parOImpar(array){
 
-    for(let i = 0; i< array.length; i++){
+    for(let i = 0; i < array.length; i++){
         (array[i] % 2 == 0)
-        ? console.log(" Es par")
-        : console.log(" Es impar");
+        ? console.log(`${array[i]} Es par`)
+        : console.log(` ${array[i]} Es impar`);
     };
 };
-const array = [7, 7, 7];
-parOlmar(array);
+const array = [7, 9, 2];
+parOImpar(array);
 
 
 };

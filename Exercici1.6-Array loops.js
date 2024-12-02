@@ -39,7 +39,7 @@ for( const clau in persona ){
 
 for(const index of arrayNums){
     console.log(index);
-    if (index == 5){
+    if (index === 5){
         break;
     };
 };
