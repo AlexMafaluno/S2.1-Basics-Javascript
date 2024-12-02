@@ -40,9 +40,15 @@ saludo.greet();// ejecuto el metodo
 //Ejercicio 4
 
 
-   const arrayNumeros=[4, 5, 6, 3, 2];
+   let arrayNumeros =[4, 5, 6, 3, 2];
 
-   arrayNumeros.forEach(index => console.log(index));
+   function printNumbers(array){
+    for(let i = 0; i < array.length; i++){
+    ((num) => console.log(num))(array[i]);
+    }
+   };
+
+   printNumbers(arrayNumeros);
 
 //Ejercicio 5
 
