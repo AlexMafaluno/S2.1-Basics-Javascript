@@ -27,28 +27,29 @@ El objetivo es construir pequeñas funcionalidades que ilustren el uso práctico
 -**CSS3:** Para el estilo básico (opcional).
 
 ## Estructura del Proyecto
-bash
-Copiar código
-````
-modern-js-project/
-├── /src
-│   ├── arrow-functions.js    # Ejemplos y ejercicios con arrow functions
-│   ├── ternary-operator.js   # Uso del operador ternario
-│   ├── callbacks.js          # Ejercicios prácticos con callbacks
-│   ├── rest-spread.js        # Uso de rest y spread operators
-│   ├── array-transform.js    # Transformaciones de arrays con map, filter, reduce
-│   ├── array-loops.js        # Iteraciones con forEach y otros métodos
-│   ├── promises-async.js     # Promesas y async/await en acción
-│
+
+
+```bash
+SPRINT2.1/
+
+├── 1.1 arrow-functions.js    # Ejemplos y ejercicios con arrow functions
+├── 1.2 ternary-operator.js   # Uso del operador ternario
+├── 1.3 callbacks.js          # Ejercicios prácticos con callbacks
+├── 1.4 rest-spread.js        # Uso de rest y spread operators
+├── 1.5 array-transform.js    # Transformaciones de arrays con map, filter, reduce
+├── 1.6 array-loops.js        # Iteraciones con forEach y otros métodos
+├── 1.7 promises-async.js     # Promesas y async/await en acción
 ├── index.html                # Archivo para ejecutar los ejemplos en el navegador
 └── README.md                 # Documentación del proyecto
 ```
+
 ## Instalación y Configuración
+
 Clonar el repositorio:
 
 ```bash
 Copiar código
-git clone https://github.com/AlexMafaluno/S.1.2-Bootsrap-SASS.git
+https://github.com/AlexMafaluno/S2.1-Basics-Javascript.git
 ```
 
 ## Visualización en vivo
