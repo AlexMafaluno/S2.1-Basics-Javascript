@@ -29,6 +29,7 @@ El objetivo es construir pequeñas funcionalidades que ilustren el uso práctico
 ## Estructura del Proyecto
 bash
 Copiar código
+````
 modern-js-project/
 ├── /src
 │   ├── arrow-functions.js    # Ejemplos y ejercicios con arrow functions
@@ -41,10 +42,19 @@ modern-js-project/
 │
 ├── index.html                # Archivo para ejecutar los ejemplos en el navegador
 └── README.md                 # Documentación del proyecto
+```
+## Instalación y Configuración
+Clonar el repositorio:
 
-## Cómo Ejecutar el Proyecto
-
-1️⃣ Clonar el repositorio
-bash
+```bash
 Copiar código
-git clone https://github.com/usuario/modern-js-project.git
+git clone https://github.com/AlexMafaluno/S.1.2-Bootsrap-SASS.git
+```
+
+## Visualización en vivo
+
+Para probar la landing page directamente en tu navegador:
+
+Instala la extensión Live Server en Visual Studio Code.
+Haz clic derecho en el archivo index.html y selecciona "Open with Live Server".
+
